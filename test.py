@@ -152,7 +152,7 @@ def main():
     print(f"Avg Dice:   {metrics['avg_dice']:.4f}")
     print(f"Avg IoU:    {metrics['avg_iou']:.4f}")
     print(f"Avg F1:     {metrics['avg_f1']:.4f}")
-    print(f"Avg Acc:    {metrics['avg_recall']:.4f}")
+    print(f"Avg Recall:    {metrics['avg_recall']:.4f}")
     print(f"Avg VI:     {metrics['avg_vi']:.4f}\n")
 
     for n in organelles:
@@ -160,7 +160,7 @@ def main():
         print(f"  Dice:   {metrics[f'{n}_dice']:.4f}")
         print(f"  IoU:    {metrics[f'{n}_iou']:.4f}")
         print(f"  F1:     {metrics[f'{n}_f1']:.4f}")
-        print(f"  Acc:    {metrics[f'{n}_recall']:.4f}")
+        print(f"  Recall:    {metrics[f'{n}_recall']:.4f}")
         print(f"  VI:     {metrics[f'{n}_vi']:.4f}\n")
 
 
